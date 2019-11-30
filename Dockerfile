@@ -18,7 +18,7 @@ RUN mkdir -p /tmp/etcd-download \
 EXPOSE 2379/tcp 2380/tcp
 VOLUME /data
 
-COPY docker/etcd/run.sh /usr/local/bin/
+# COPY docker/etcd/run.sh /usr/local/bin/
 
 ENV ETCDCTL_API=3
 
