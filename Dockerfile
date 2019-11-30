@@ -3,7 +3,7 @@ MAINTAINER Sebastian Braun <sebastian.braun@fh-aachen.de>
 RUN apk add --no-cache ca-certificates
 # base alpine template
 
-ARG VERSION=3.4.3
+ARG VERSION=v3.4.3
 
 RUN mkdir -p /tmp/etcd-download \
  && apk add --no-cache bind-tools \
